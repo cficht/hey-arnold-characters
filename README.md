@@ -8,6 +8,7 @@
 
 ## Containers
 [] - CharacterList
+[] - CharacterInfo
 [] - Paging
 
 ## Services
@@ -17,11 +18,15 @@
 
 ## Order
 ListItem
-CharacterInfo
+CharacterList
 heyarnold
-Update CharacterInfo
+Update CharacterList
 Header
 React Router
 Details
+
+CharacterInfo
+heyarnold getCharacter
+Update CharacterInfo
 Update List Item For Link
-Update Header To Return
+Update Header To Return Home

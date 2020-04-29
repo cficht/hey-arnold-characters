@@ -10,8 +10,8 @@ const Details = ({ name, image }) => (
 );
 
 Details.propTypes = {
-  name: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired
+  name: PropTypes.string,
+  image: PropTypes.string
 };
 
 export default Details;
