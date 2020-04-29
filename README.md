@@ -1,19 +1,19 @@
 # hey-arnold-characters
 
 ## Components
-[] - App
+[x] - App
 [x] - ListItem
-[] - Details
-[] - Header
+[x] - Details
+[x] - Header
 
 ## Containers
-[] - CharacterList
-[] - CharacterInfo
-[] - Paging
+[x] - CharacterList
+[x] - CharacterInfo
+[x] - Paging
 
 ## Services
 [x] - getCharacters
-[] - getCharacter
+[x] - getCharacter
 
 
 ## Order
@@ -27,6 +27,6 @@ Details
 CharacterInfo
 heyarnold fetchCharacter
 Update CharacterInfo
-
 Update List Item For Link
 Update Header To Return Home
+Paging
