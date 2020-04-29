@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const ListItem = ({ _id, name }) => (
   <li>
-    <Link to={`/${_id}`} >{name}</Link>
+    <Link to={`detail/${_id}`} >{name}</Link>
   </li>
 );
 

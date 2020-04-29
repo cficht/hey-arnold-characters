@@ -13,8 +13,8 @@ export default function App() {
     <Router>
       <Header />
       <Switch>
-        <Route exact path="/" component={CharacterList} />
-        <Route exact path="/:id?" component={CharacterInfo} />
+        <Route exact path="/:page?" component={CharacterList} />
+        <Route exact path="/detail/:id?" component={CharacterInfo} />
       </Switch>
     </Router>
   );

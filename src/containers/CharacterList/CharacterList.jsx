@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import ListItem from '../../components/ListItem/ListItem';
 import { fetchCharacters } from '../../services/heyarnold';
+import { useParams } from 'react-router-dom';
 
 const CharacerList = () => {
   const [characters, setCharacters] = useState([]);
+  let { page } = useParams();
+  if(!page) page = 1;
 
   useEffect(() => {
-    fetchCharacters()
+    fetchCharacters(page)
       .then(apiCharacters => setCharacters(apiCharacters));
   }, []);
 

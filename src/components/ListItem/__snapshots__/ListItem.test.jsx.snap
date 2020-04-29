@@ -3,7 +3,7 @@
 exports[`ListItem component renders ListItem 1`] = `
 <li>
   <Link
-    to="/5da237699734fdcb7bef8f51"
+    to="detail/5da237699734fdcb7bef8f51"
   >
     Arnold Shortman
   </Link>
