@@ -5,8 +5,10 @@ exports[`Header component renders Header 1`] = `
   <h1>
     Hey Arnold
   </h1>
-  <p>
+  <Link
+    to="/"
+  >
     Home
-  </p>
+  </Link>
 </Fragment>
 `;
