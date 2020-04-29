@@ -1,12 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const ListItem = ({ _id, name }) => (
-  <>
-    <p>{name}</p>
-    <p>{_id}</p>
-  </>
+  <li>
+    <Link to={`/${_id}`} >{name}</Link>
+  </li>
 );
 
 ListItem.propTypes = {

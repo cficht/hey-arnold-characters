@@ -24,9 +24,9 @@ Update CharacterList
 Header
 React Router
 Details
-
 CharacterInfo
-heyarnold getCharacter
+heyarnold fetchCharacter
 Update CharacterInfo
+
 Update List Item For Link
 Update Header To Return Home

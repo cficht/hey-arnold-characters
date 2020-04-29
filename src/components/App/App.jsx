@@ -4,7 +4,7 @@ import {
   Route,
   Switch
 } from 'react-router-dom';
-// import CharacterList from '../../containers/CharacterList/CharacterList';
+import CharacterList from '../../containers/CharacterList/CharacterList';
 import CharacterInfo from '../../containers/CharacterInfo/CharacterInfo';
 import Header from '../Header/Header';
 
@@ -13,7 +13,7 @@ export default function App() {
     <Router>
       <Header />
       <Switch>
-        {/* <Route exact path="/" component={CharacterList} /> */}
+        <Route exact path="/" component={CharacterList} />
         <Route exact path="/:id?" component={CharacterInfo} />
       </Switch>
     </Router>
