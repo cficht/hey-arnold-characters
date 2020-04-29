@@ -2,7 +2,7 @@
 
 ## Components
 [] - App
-[] - ListItem
+[x] - ListItem
 [] - Details
 [] - Header
 
@@ -11,7 +11,8 @@
 [] - Paging
 
 ## Services
-[] - heyarnold
+[x] - getCharacters
+[] - getCharacter
 
 
 ## Order
@@ -21,3 +22,6 @@ heyarnold
 Update CharacterInfo
 Header
 React Router
+Details
+Update List Item For Link
+Update Header To Return
