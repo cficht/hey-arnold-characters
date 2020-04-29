@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem component renders ListItem 1`] = `
+<Fragment>
+  <p>
+    Arnold Shortman
+  </p>
+  <p>
+    5da237699734fdcb7bef8f51
+  </p>
+</Fragment>
+`;
