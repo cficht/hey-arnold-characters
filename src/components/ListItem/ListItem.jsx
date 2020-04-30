@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import styles from '../App/App.css';
 
 const ListItem = ({ _id, name }) => (
-  <li>
+  <li className={styles.listDiv}>
     <Link to={`detail/${_id}`} >{name}</Link>
   </li>
 );

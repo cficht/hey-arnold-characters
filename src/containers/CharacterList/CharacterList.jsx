@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ListItem from '../../components/ListItem/ListItem';
 import { fetchCharacters } from '../../services/heyarnold';
 import { useParams, useHistory } from 'react-router-dom';
+import styles from '../../components/App/App.css';
 
 const CharacerList = () => {
   const [characters, setCharacters] = useState([]);
@@ -30,8 +31,10 @@ const CharacerList = () => {
   return (
     <>
       {characterNodes}
-      <button value={-1} onClick={nextPage}>Back</button>
-      <button value={1} onClick={nextPage}>Forward</button>
+      <div className={styles.listDiv}>
+        <button value={-1} onClick={nextPage}>Back</button>
+        <button value={1} onClick={nextPage}>Forward</button>
+      </div>
     </>
   );
 };

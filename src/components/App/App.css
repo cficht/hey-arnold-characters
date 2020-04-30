@@ -1,0 +1,38 @@
+.headerDiv {
+  color: yellow;
+  background-color: darkblue;
+  text-align: center;
+  padding: 10px;
+}
+
+.headerDiv a {
+  color: red;
+}
+
+.listDiv {
+  color: yellow;
+  background-color: blue;
+  text-align: center;
+  list-style-type: none;
+  padding: 5px;
+}
+
+a {
+  color: yellow;
+};
+
+.listDiv {
+  color: yellow;
+  background-color: blue;
+  text-align: center;
+  list-style-type: none;
+  padding: 5px;
+}
+
+.listDiv button {
+  color: yellow;
+  background-color: darkblue;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+}
