@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header component renders Header 1`] = `
-<Fragment>
+<div
+  className="headerDiv"
+>
   <h1>
     Hey Arnold
   </h1>
@@ -10,5 +12,5 @@ exports[`Header component renders Header 1`] = `
   >
     Home
   </Link>
-</Fragment>
+</div>
 `;
