@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details component renders Details 1`] = `
+<div
+  className="listDiv"
+>
+  <p>
+    Arnold Shortman
+  </p>
+  <img
+    src="https://vignette.wikia.nocookie.net/heyarnold/images/f/f5/Arnold.png/revision/latest?cb=20181027162333"
+  />
+</div>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem component renders ListItem 1`] = `
+<li
+  className="listDiv"
+>
+  <Link
+    to="detail/5da237699734fdcb7bef8f51"
+  >
+    Arnold Shortman
+  </Link>
+</li>
+`;
